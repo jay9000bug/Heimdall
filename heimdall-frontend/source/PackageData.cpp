@@ -39,7 +39,7 @@ void PackageData::Clear(void)
 	firmwareInfo.Clear();
 
 	for (int i = 0; i < files.length(); i++)
-		delete files[i];
+        delete files[i];
 
 	files.clear();
 }
